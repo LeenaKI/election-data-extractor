@@ -27,14 +27,16 @@ GEMINI_API_KEY=your_api_key_here
 LLM_MODEL=gemini-2.5-flash
 INPUT_FOLDER=input_images
 OUTPUT_FOLDER=output_jsons
+TARGET_IMAGE_NAME=election_form2.jpeg
 ```
 
 ### 3. Usage
 Place your scanned Form EC 8A images into the input_images folder, then run the script:
 ```
-python img_app.py    #for single file processing
-python folder_app.py #for batch processing
+python img_app.py        #for single file processing
+python folder_app.py     #for batch processing
 ```
+
 ###  Example JSON Output
 The tool outputs a highly structured schema, including:
 
