@@ -23,11 +23,11 @@ pip install google-genai pillow python-dotenv
 ###  2. Environment Setup
 Create a .env file in the root directory and add your Google AI Studio API key and folder paths:
 ```
-GEMINI_API_KEY=your_api_key_here
-LLM_MODEL=gemini-2.5-flash
-INPUT_FOLDER=input_images
-OUTPUT_FOLDER=output_jsons
-TARGET_IMAGE_NAME=election_form2.jpeg
+GEMINI_API_KEY = your_api_key_here
+LLM_MODEL = gemini-2.5-flash
+INPUT_FOLDER = input_images
+OUTPUT_FOLDER = output_jsons
+TARGET_IMAGE_NAME = election_form2.jpeg
 ```
 
 ### 3. Usage
