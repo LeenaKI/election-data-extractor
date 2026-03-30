@@ -1,0 +1,90 @@
+{
+    "metadata": {
+        "state": "FCT",
+        "state_code": "37",
+        "area_council": "KWALI",
+        "area_council_code": "05",
+        "ward": "YANGOJI",
+        "ward_code": "02",
+        "polling_unit": "KOROKO PRIMARY HEALTH CENTRE",
+        "polling_unit_code": "017",
+        "serial_number": "0000051"
+    },
+    "statistics": {
+        "registered_voters": 845,
+        "accredited_voters": 213,
+        "ballots_issued": 213,
+        "unused_ballots": 132,
+        "spoiled_ballots": 0,
+        "rejected_ballots": 2,
+        "total_valid_votes": 211,
+        "total_used_ballot_papers ": 213
+    },
+    "results": [
+        {
+            "sn": 1,
+            "party": "A",
+            "votes_figures": 0,
+            "votes_words": "ZERO"
+        },
+        {
+            "sn": 2,
+            "party": "AA",
+            "votes_figures": 0,
+            "votes_words": "ZERO"
+        },
+        {
+            "sn": 3,
+            "party": "ADC",
+            "votes_figures": 2,
+            "votes_words": "TWO"
+        },
+        {
+            "sn": 4,
+            "party": "ADP",
+            "votes_figures": 17,
+            "votes_words": "SEVENTEEN"
+        },
+        {
+            "sn": 5,
+            "party": "APC",
+            "votes_figures": 121,
+            "votes_words": "ONE HUNDRED AND TWENTY ONE"
+        },
+        {
+            "sn": 6,
+            "party": "APGA",
+            "votes_figures": 0,
+            "votes_words": "ZERO"
+        },
+        {
+            "sn": 7,
+            "party": "APM",
+            "votes_figures": 0,
+            "votes_words": "ZERO"
+        },
+        {
+            "sn": 8,
+            "party": "NNPP",
+            "votes_figures": 0,
+            "votes_words": "ZERO"
+        },
+        {
+            "sn": 9,
+            "party": "PDP",
+            "votes_figures": 71,
+            "votes_words": "SEVENTY ONE"
+        }
+    ],
+    "polling_agent_names": [
+        "Haruna Bitrus",
+        "DAUDA ISAH SHI PAMA",
+        "ISAH HABAKUK ZEGIBWA",
+        "Rabilu Abubakar"
+    ],
+    "certification": {
+        "presiding_officer_name": "YOHANNA HANNATU",
+        "date": "21-02-2026"
+    },
+    "is_seal_present": true
+}
