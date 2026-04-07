@@ -15,7 +15,7 @@ st.markdown("Upload images of Form EC 8A to extract structured JSON data using G
 with st.sidebar:
     st.header("Authentication")
     user_api_key = st.text_input("Enter your Gemini API Key(Must be Paid account)", type="password")
-    model_choice = st.selectbox("Select Model", ["gemini-3.1-pro-preview"], index=0)
+    model_choice = st.selectbox("Select Model", ["gemini-3.1-pro-preview", "gemini-2.5-flash"], index=0)
     
     st.divider()
     st.info("The API key is used only for this session and is not stored.")
