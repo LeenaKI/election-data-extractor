@@ -8,14 +8,14 @@ import json
 # --- Page Configuration ---
 st.set_page_config(page_title="Form EC 8A Extractor", layout="wide")
 
-st.title("🗳️ Form EC 8A Data Extractor")
+st.title("Form EC 8A Data Extractor")
 st.markdown("Upload images of Form EC 8A to extract structured JSON data using Gemini.")
 
 # --- Sidebar for API Key ---
 with st.sidebar:
     st.header("Authentication")
     user_api_key = st.text_input("Enter your Gemini API Key", type="password")
-    model_choice = st.selectbox("Select Model", ["gemini-2.0-flash", "gemini-1.5-flash"], index=0)
+    model_choice = st.selectbox("Select Model", ["gemini-3.1-pro-preview"], index=0)
     
     st.divider()
     st.info("The API key is used only for this session and is not stored.")
