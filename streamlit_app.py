@@ -14,7 +14,7 @@ st.markdown("Upload images of Form EC 8A to extract structured JSON data using G
 # --- Sidebar for API Key ---
 with st.sidebar:
     st.header("Authentication")
-    user_api_key = st.text_input("Enter your Gemini API Key(Must be Paid account to use `3.1 pro` model)", type="password")
+    user_api_key = st.text_input("Enter your Gemini API Key `(Must be Paid account to use '3.1 pro' model`)", type="password")
     model_choice = st.selectbox("Select Model", ["gemini-3.1-pro-preview", "gemini-2.5-flash"], index=0)
     
     st.divider()
